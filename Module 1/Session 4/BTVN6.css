@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+h1 {
+    color: blue;
+    margin: 10px 0;
+    padding-top: 10px;
+}
+p {
+    margin-bottom: 10px;
+}
+button {
+    padding: 15px;
+    margin: 10px;
+}
+
+button:hover {
+    color: white;
+    background-color: green;
+}
