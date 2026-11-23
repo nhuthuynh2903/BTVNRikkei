@@ -1,0 +1,10 @@
+div {
+    background-color: gainsboro;
+    margin: 5px auto;
+    padding: 10px;
+    color: white;
+}
+
+div:hover {
+    background-color: grey;
+}

@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+}
+
+header h1 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+header nav a {
+    color: blue;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 20px;
+}
+
+aside {
+    width: 260px;
+    flex-shrink: 0;
+    background-color: white;
+    border: 1px solid grey;
+    padding: 16px 20px;
+}
+
+aside > p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+aside ul {
+    padding-left: 18px;
+}
+
+aside li {
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+aside a {
+    color: #1a0dab;
+}
+
+.main {
+    flex: 1;
+}
+
+.article {
+    padding: 8px 0 22px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.article:last-child {
+    border-bottom: none;
+    padding-bottom: 10px;
+}
+
+.article > p:first-child {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.article img {
+    width: 180px;
+    height: 105px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.article > p:last-child {
+    font-size: 13px;
+    color: gray;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+    font-size: 13px;
+    margin-top: 10px;
+}

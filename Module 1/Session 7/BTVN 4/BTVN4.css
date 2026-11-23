@@ -1,0 +1,39 @@
+body {
+    padding: 12px 16px;
+    color: white;
+}
+
+header {
+    background-color: blue;
+    padding: 12px 14px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.main {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+aside {
+    width: 22%;
+    min-height: 290px;
+    background-color: green;
+    padding: 12px 14px;
+    font-size: 13px;
+}
+
+.content {
+    flex: 1;
+    min-height: 290px;
+    background-color: brown;
+    padding: 12px 14px;
+    font-size: 13px;
+}
+
+footer {
+    background-color: plum;
+    padding: 12px 14px;
+    font-size: 13px;
+}

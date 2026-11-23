@@ -1,0 +1,95 @@
+.fadein {
+    background-color: gainsboro;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.fadein:hover {
+    background-color: gray;
+}
+
+.changecolor {
+    background-color: gainsboro;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.changecolor:hover {
+    background-color:dodgerblue;
+}
+
+.grow {
+    background-color: gray;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    transition: 2s;
+}
+
+.grow:hover {
+    transform: scale(1.2);
+}
+
+.shrink {
+    background-color: gray;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    transition: 2s;
+}
+
+.shrink:hover {
+    transform: scale(0.8);
+}
+
+.rotate {
+    background-color: gray;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    transition: 2s;
+}
+
+.rotate:hover {
+    transform: rotate(-25deg);
+}
+
+.circle {
+    background-color: gray;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    transition: 2s;
+}
+
+.circle:hover {
+    border-radius: 500px;
+}
+
+.border {
+    background-color: gray;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    transition: box-shadow 0.3s ease;
+}
+
+.border:hover {
+    box-shadow: inset 0 0 0 15px blue;
+}

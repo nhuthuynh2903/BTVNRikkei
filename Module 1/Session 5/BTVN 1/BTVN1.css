@@ -1,0 +1,8 @@
+button {
+    width: 100%;
+    height: 500px;
+    border-top: 5px red solid;
+    border-right: 5px blue dotted;
+    border-bottom: 5px green double;
+    border-left: 5px purple groove;
+}

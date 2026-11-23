@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 14px;
+}
+
+footer > div {
+    flex: 0 0 50%; 
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 26px 32px;
+        row-gap: 18px;
+    }
+
+    footer > div {
+        flex: 0 0 100%; 
+        font-size: 15px;
+    }
+}

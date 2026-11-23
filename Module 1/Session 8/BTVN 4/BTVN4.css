@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+}
+
+header h1 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.info {
+    background-color: gainsboro;
+    color: #888888;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
+.intro {
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.intro > div {
+    background-color: gainsboro;
+    color: black;
+    height: 44px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro > div:nth-child(1),
+.intro > div:nth-child(2) {
+    flex: 1 1 calc(50% - 7px);
+}
+
+.intro > div:nth-child(3) {
+    flex: 1 1 100%;
+}
+
+@media (max-width: 1024px) {
+    header {
+        padding: 14px 28px;
+    }
+
+    .info {
+        height: 260px;
+        font-size: 30px;
+    }
+
+    .intro {
+        padding: 24px 36px;
+        gap: 18px;
+    }
+
+    .intro > div:nth-child(1),
+    .intro > div:nth-child(2) {
+        flex: 1 1 100%; 
+    }
+}

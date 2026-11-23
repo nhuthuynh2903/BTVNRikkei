@@ -1,0 +1,25 @@
+body {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    padding: 12px;
+    background-color: gainsboro;
+    border: 2px solid gray;
+}
+
+.container > div {
+    background-color: #46c86b;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    height: 75px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

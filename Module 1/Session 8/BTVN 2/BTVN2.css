@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 16px;
+    background-color: white;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.child {
+    flex: 1 1 calc((100% - 30px) / 4);
+    background-color: #e28080;
+    color: white;
+    font-size: 13px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .child {
+        flex: 1 1 calc((100% - 10px) / 2);
+    }
+}
+
+@media (max-width: 600px) {
+    .child {
+        flex: 1 1 100%;
+    }
+}

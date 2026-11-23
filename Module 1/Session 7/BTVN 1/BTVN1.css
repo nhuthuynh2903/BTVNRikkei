@@ -1,0 +1,19 @@
+body {
+    background-color: gainsboro;
+    margin: 16px;
+    height: calc(100vh - 32px);
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+
+div {
+    width: 110px;
+    height: 110px;
+    background-color: #418fde;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

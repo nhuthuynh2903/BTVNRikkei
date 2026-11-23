@@ -1,0 +1,43 @@
+body {
+    padding: 16px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.sub {
+    display: flex;
+    gap: 10px;
+    height: 150px;
+}
+
+.left {
+    flex: 1;
+    background-color: gray;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.right > div {
+    background-color: gray;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
