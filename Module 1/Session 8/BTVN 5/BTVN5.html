@@ -5,11 +5,207 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="BTVN5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
     <title>BTVN 5</title>
 </head>
 
 <body>
+    <header>
+        <div class="Logo">
+            <a href=""><img src="resource/logo.png" alt=""></a>
+        </div>
+        <div class="notiacc">
+            <a class="flag" href="">
+                <p>USD</p>
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/United-states_flag_icon_round.svg/3840px-United-states_flag_icon_round.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+                    alt="">
+                <img src="https://www.svgrepo.com/show/327448/notifications-circle.svg" alt="">
+            </a>
+            <p>|</p>
+            <a class="ava" href=""><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWAQ3OSAFQjz0B-1GMLq3rzFShqcFlqMVn2LGESAmRT6Jz2ht6BGwC_fPG&s=10"
+                    alt="">
+                <p>Delowar</p>
+                <i class="fa-solid fa-sort-down"></i>
+            </a>
+        </div>
+    </header>
 
+    <nav class="breadcrumb">
+        <a href="">Home</a>
+        <i class="fa-solid fa-chevron-right"></i>
+        <a href="">Hotel list</a>
+        <i class="fa-solid fa-chevron-right"></i>
+        <a href="">Hotel details</a>
+        <i class="fa-solid fa-chevron-right"></i>
+        <span>Confirm and pay</span>
+    </nav>
+
+    <main>
+        <section class="confirm">
+            <h1>Confirm your book</h1>
+            <h2>Your tour</h2>
+            <div class="tourbox">
+                <div class="left">
+                    <p>Date</p>
+                    <p>June 27 - 30,2020</p>
+                </div>
+                <div class="right">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </div>
+            </div>
+            <div class="tourbox">
+                <div class="left">
+                    <p>Traveller</p>
+                    <p>1 Passenger</p>
+                </div>
+                <div class="right">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </div>
+            </div>
+            <img src="resource/mayment card.png" alt="">
+            <div class="cardimg">
+                <img src="resource/card 1.png" alt="">
+                <img src="resource/card 2.png" alt="">
+            </div>
+            <form action="https://google.com.vn" method="post">
+                <div class="formgroup">
+                    <label for="cardid">Card Number:</label>
+                    <div>
+                        <input type="text" placeholder="5884 6241 4444 3333" id="cardid">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                </div>
+                <div class="formrow">
+                    <div class="formgroup">
+                        <label for="expdate">Expiry Date</label>
+                        <input type="text" placeholder="MM / YY" id="expdate">
+                    </div>
+                    <div class="formgroup">
+                        <label for="CVV">CVC/CVV</label>
+                        <input type="password" placeholder="••••" id="CVV">
+                    </div>
+                </div>
+
+                <div class="formcheck">
+                    <input type="checkbox" id="save">
+                    <label for="save">Savecard</label>
+                </div>
+
+                <button type="submit">Confirm and reserve</button>
+            </form>
+        </section>
+        <aside class="sumary">
+            <h3>Switzerland Hotels and Places to stay</h3>
+            <div class="rate">
+                <i class="fa-solid fa-star"></i>
+                <p>4.8</p>
+                <p>(122 reviews)</p>
+            </div>
+            <img src="resource/daniel-corneschi-N6HTCyN50p0-unsplash 1.png" alt="">
+            <p>1 bedroom + 1 private room</p>
+            <div class="info">
+                <div class="checkinout">
+                    <div>
+                        <p>Checkin</p>
+                        <p>June 27,2020</p>
+                    </div>
+                    <div>
+                        <p>Checkout</p>
+                        <p>June 30,2020</p>
+                    </div>
+                </div>
+
+                <div>
+                    <p>Guest</p>
+                    <p>2 guests</p>
+                </div>
+            </div>
+            <div class="detail">
+                <h3>Booked details</h3>
+                <div class="fee">
+                    <div>
+                        <p>$119 + 5nights</p>
+                        <p>$833</p>
+                    </div>
+                    <div>
+                        <p>Occupancy text and fee</p>
+                        <p>-$125</p>
+                    </div>
+                    <div>
+                        <p>Service fee</p>
+                        <p>$103</p>
+                    </div>
+                    <div class="total">
+                        <p>Total</p>
+                        <p>$833</p>
+                    </div>
+                </div>
+            </div>
+            <button>Report this property</button>
+        </aside>
+    </main>
+
+    <section class="offer">
+        <div class="offerleft">
+            <p>Get our pro offers</p>
+            <p>Create a visual identity for your company, and an overall brand.</p>
+        </div>
+        <div class="offerright">
+            <form action="https://google.com.vn" method="post">
+                <input type="email" placeholder="Type your email here">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <!-- Cột Logo & nút chuyển sáng/tối -->
+            <div class="footer-brand">
+                <img src="resource/logo.png" alt="">
+                <p>This is the team that specializes in making sure in the find it a your interior looks cool</p>
+                <div class="theme-toggle">
+                    <button type="button" class="active"><i class="fa-solid fa-sun"></i></button>
+                    <button type="button"><i class="fa-regular fa-moon"></i></button>
+                </div>
+            </div>
+
+            <!-- 3 cột menu -->
+            <div class="footer-col">
+                <h3>Services</h3>
+                <ul>
+                    <li>Travel Booking</li>
+                    <li>Flight Booking</li>
+                    <li>Car Booking</li>
+                    <li>Fivestar Hotel</li>
+                    <li>Traveling</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Support</h3>
+                <ul>
+                    <li>Account</li>
+                    <li>Legal</li>
+                    <li>Contact</li>
+                    <li>Terms & Condition</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Business</h3>
+                <ul>
+                    <li>Success</li>
+                    <li>About Locato</li>
+                    <li>Blog</li>
+                    <li>Information</li>
+                    <li>Travel Guide</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
